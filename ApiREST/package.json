@@ -1,0 +1,17 @@
+{
+  "name": "api-restful-node-mongo",
+  "version": "1.0.0",
+  "description": "Api restful de Maratones con nodejs y mongodb",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "restart":"nodemon server.js"
+  },
+  "author": "Nohemi M",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.14",
+    "nodemon": "^2.0.1"
+  }
+}
